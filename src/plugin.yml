@@ -1,0 +1,5 @@
+name: minecraftjavaplugin
+version: 1.0.0
+author: vinicius-portela
+description: A Minecraft Java Plugin
+main: me.viniciusportela.minecraftjavaplugin.Main
