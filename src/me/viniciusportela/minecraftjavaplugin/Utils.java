@@ -11,6 +11,8 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Utils {
+
+    // Create a file
     public static void write(String filename, OfflinePlayer[] player) throws IOException, UserDoesNotExistException {
         BufferedWriter outputWriter = new BufferedWriter(new FileWriter(filename));
         for (OfflinePlayer offlinePlayer : player) {
@@ -21,4 +23,5 @@ public class Utils {
         outputWriter.flush();
         outputWriter.close();
     }
+
 }
